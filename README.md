@@ -25,7 +25,7 @@ or default setting (MVTec-AD)
 ```
 sh mecro.sh
 ```
-or with options (dataset&nbsp;|&nbsp;discount factor&nbsp;|&nbsp;eps&nbsp;|&nbsp;pretrain&nbsp;|&nbsp;class)
+or with options (dataset&nbsp;|&nbsp;decay coef&nbsp;|&nbsp;linear decay&nbsp;|&nbsp;pretrain&nbsp;|&nbsp;class)
 ```
 sh mecro.sh mvtecad 0.9 False True 0
 ```
@@ -79,3 +79,5 @@ python main.py --dataset SMD
 |SMAP|135,183|427,617|25|
 |MSL|58,317|73,729|55|
 |SMD|708,405|708,420|28*28|
+
+
