@@ -4,13 +4,14 @@ Inspection Systems
 
 ![dsvdd-cpm](https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16)
      
-[https://doi.org/10.5302/J.ICROS.2024.23.0200](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11724351)
-
-Journal of Institute of Control, Robotics and Systems (2024) 30(3)      
+Journal of Institute of Control, Robotics and Systems (202x) 3x(x)      
 ISSN:1976-5622       
 eISSN:2233-4335
 
 ## Usage
+### Datasets
+Our research currently has completed AD experiments on the MNIST([http://yann.lecun.com/exdb/mnist/(yann.lecun.com/exdb/mnist/)
+
 
 ### SWaT data processing
 1. Run `unzip ./SWaT/data/SWaT.zip` to unzip the datasets      
