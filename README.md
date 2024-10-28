@@ -3,18 +3,37 @@ Anomaly Detection Control through Zero-Shot Learning in Defect
 Inspection Systems
 
 ![dsvdd-cpm](https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16)
-     
+
+[https://doi.org/10.5302/J.ICROS.202x.2x.xxxx](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00002128)
+
 Journal of Institute of Control, Robotics and Systems (202x) 3x(x)      
 ISSN:1976-5622       
 eISSN:2233-4335
 
 ## Usage
 ### Datasets
-Our research currently has completed AD experiments on the MNIST ([http://yann.lecun.com/exdb/mnist/](https://yann.lecun.com/exdb/mnist/)), CIFAR-10 () and MVTec-AD () datasets.
+Our research currently has completed AD experiments on the MNIST ([yann.lecun](https://yann.lecun.com/exdb/mnist/)), CIFAR-10 ([cs.toronto](https://www.cs.toronto.edu/~kriz/cifar.html)) and MVTec-AD ([mvtec](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [kaggle](https://www.kaggle.com/datasets/thtuan/mvtecad-mvtec-anomaly-detection)) datasets.
+
+#### MVTec-AD example
 
 
+Run shell script (log file: ~/DSVDD-CPM/log)
+```
+sh mecro.sh mvtecad
+```
+or default setting (MVTec-AD)
+```
+sh mecro.sh
+```
+or with options (dataset&nbsp;|&nbsp;discount factor&nbsp;|&nbsp;eps&nbsp;|&nbsp;pretrain&nbsp;|&nbsp;class)
+```
+sh mecro.sh mvtecad 0.9 False True 0
+```
 
-### SWaT data processing
+# Or
+sh mecro.sh
+# Run shell script (output: terminal)
+
 1. Run `unzip ./SWaT/data/SWaT.zip` to unzip the datasets      
 or      
 2. Run `cd ./SWaT/utils`     
