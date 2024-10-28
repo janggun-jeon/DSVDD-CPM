@@ -17,7 +17,7 @@ Our research currently has completed AD experiments on the MNIST ([yann.lecun](h
 #### MVTec-AD example
 
 
-Run shell script (log file: ~/DSVDD-CPM/log)
+Run shell script (log file output: ~/DSVDD-CPM/log)
 ```
 sh mecro.sh mvtecad
 ```
@@ -25,10 +25,33 @@ or default setting (MVTec-AD)
 ```
 sh mecro.sh
 ```
-or with options (dataset&nbsp;|&nbsp;decay coef&nbsp;|&nbsp;linear decay&nbsp;|&nbsp;pretrain&nbsp;|&nbsp;class)
+or with options <p></p>
+(dataset | decay coef | linear decay | pretrain | class)
 ```
 sh mecro.sh mvtecad 0.9 False True 0
 ```
+
+<br><br>
+
+Run python execution (ternimal window output)
+```
+python ./src/main.py mvtecad mvtecad_LeNet_ELU ./log/mvtecad_test ./data
+```
+
+or with options <p></p>
+(dataset_name | net_name | xp_path | data_path | seed | device | optimizer_name | lr | n_epochs | lr_milestone | batch_size | weight_decay | decay_coef | linear_decay | pretrain | ae_lr | ae_n_epochs | ae_lr_milestone | ae_batch_size | ae_weight_decay | normal_class | n_jobs_dataloader)
+```
+python ./src/main.py mvtecad mvtecad_LeNet_ELU ./log/mvtecad_test ./data --seed 1758683904 --device cuda --optimizer_name adam --lr 0.01 --n_epochs 60 --lr_milestone 20 --lr_milestone 50 --batch_size 32 --weight_decay 0.5e-6 --decay_coef 0.9 --linear_decay True --pretrain True --ae_lr 0.01 --ae_n_epochs 75 --ae_lr_milestone 60 --ae_batch_size 32 --ae_weight_decay 0.5e-3 --normal_class 0 --n_jobs_dataloader 0
+```
+
+Run python execution (log file output: ~/DSVDD-CPM/log)
+```
+nohup python ./src/main.py mvtecad mvtecad_LeNet_ELU ./log/mvtecad_test ./data --normal_class 0 --decay_coef 0.9 --linear_decay True ./log/mvtecad_test/0/decay_coef=0.9-linear_decay=True.out 2>&1 &
+```
+
+<br>
+
+![table](https://github.com/user-attachments/assets/a5745804-6fff-4af3-adec-38f08a061eab)
 
 # Or
 sh mecro.sh
