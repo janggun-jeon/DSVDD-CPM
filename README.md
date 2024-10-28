@@ -10,7 +10,7 @@ eISSN:2233-4335
 
 ## Usage
 ### Datasets
-Our research currently has completed AD experiments on the MNIST ([http://yann.lecun.com/exdb/mnist/](yann.lecun.com/exdb/mnist/)), CIFAR-10 () and MVTec-AD () datasets.
+Our research currently has completed AD experiments on the MNIST ([http://yann.lecun.com/exdb/mnist/](https://yann.lecun.com/exdb/mnist/)), CIFAR-10 () and MVTec-AD () datasets.
 
 
 
