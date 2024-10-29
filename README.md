@@ -1,6 +1,6 @@
 # DSVDD-CPM
 Anomaly Detection Control through Zero-Shot Learning in Defect 
-Inspection Systems
+Inspection Systems (paper under review)
 
 ![dsvdd-cpm](https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16)
 
