@@ -31,7 +31,7 @@ or with options <p></p>
 sh mecro.sh mvtecad 0.9 False True 0
 ```
 
-<br><br>
+<br>
 
 Run python execution (ternimal window output)
 ```
@@ -51,7 +51,7 @@ nohup python ./src/main.py mvtecad mvtecad_LeNet_ELU ./log/mvtecad_test ./data -
 
 <br>
 
-![table](https://github.com/user-attachments/assets/a5745804-6fff-4af3-adec-38f08a061eab)
+![table](https://github.com/user-attachments/assets/ae29aa22-f431-4abc-a821-1608c10b6abd)
 
 # Or
 sh mecro.sh
