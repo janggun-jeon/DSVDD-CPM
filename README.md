@@ -2,7 +2,7 @@
 Anomaly Detection Control through Zero-Shot Learning in Defect 
 Inspection Systems (paper under review)
 
-![dsvdd-cpm](https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16)
+<img src="https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16" width="59%"> <img src="https://github.com/user-attachments/assets/90c8b875-6f3c-41f1-a9ad-9a73bcadbe5f" width="39%">
 
 [https://doi.org/10.5302/J.ICROS.202x.2x.xxxx](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00002128)
 
