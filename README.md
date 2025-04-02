@@ -1,12 +1,12 @@
 # DSVDD-CPM
-Anomaly Detection Control through Zero-Shot Learning in Defect 
+Anomaly Detection Control through One-clss Learning in Defect 
 Inspection Systems (paper under review)
 
 <img src="https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16" width="59%"> <img src="https://github.com/user-attachments/assets/90c8b875-6f3c-41f1-a9ad-9a73bcadbe5f" width="39%">
 
-[https://doi.org/10.5302/J.ICROS.202x.2x.xxxx](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00002128)
+[https://doi.org/10.5302/J.ICROS.2025.24.0280](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00002128)
 
-Journal of Institute of Control, Robotics and Systems (202x) 3x(x)      
+Journal of Institute of Control, Robotics and Systems (2025) 31(4):328-333      
 ISSN:1976-5622       
 eISSN:2233-4335
 
@@ -119,7 +119,7 @@ nohup python ./src/main.py mnist mnist_LeNet ./log/mnist_test ./data --normal_cl
 If you find this repo helpful to your research, please cite our paper.
 ```
 @article{,
-  title={Anomaly Detection Control through Zero-Shot Learning in Defect Inspection Systems},
+  title={Anomaly Detection Control through One-class Learning in Defect Inspection Systems},
   author={Janggun Jeon, Namgi Kim},
   journal={Journal of Institute of Control, Robotics and Systems},
   year={2024}
