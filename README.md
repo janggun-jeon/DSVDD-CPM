@@ -122,6 +122,6 @@ If you find this repo helpful to your research, please cite our paper.
   title={Anomaly Detection Control through One-class Learning in Defect Inspection Systems},
   author={Janggun Jeon, Namgi Kim},
   journal={Journal of Institute of Control, Robotics and Systems},
-  year={2024}
+  year={2025}
 }
 ```
