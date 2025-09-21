@@ -1,5 +1,5 @@
 # DSVDD-CPM
-Anomaly Detection Control through One-clss Learning in Defect 
+Anomaly Detection Control through One-class Learning in Defect 
 Inspection Systems (paper under review)
 
 <img src="https://github.com/user-attachments/assets/54ddc0a7-ac36-4398-a8a5-30753f231d16" width="59%"> <img src="https://github.com/user-attachments/assets/90c8b875-6f3c-41f1-a9ad-9a73bcadbe5f" width="39%">
@@ -115,13 +115,16 @@ nohup python ./src/main.py mnist mnist_LeNet ./log/mnist_test ./data --normal_cl
 ```
 
 
-## Reference
-If you find this repo helpful to your research, please cite our paper.
-```
-@article{,
-  title={Anomaly Detection Control through One-class Learning in Defect Inspection Systems},
-  author={Janggun Jeon, Namgi Kim},
-  journal={Journal of Institute of Control, Robotics and Systems},
+## Citation
+If you use our code, please cite the paper below:
+```bibtex
+@article{전장군2025결함,
+  title={결함 검사 시스템에서 단일 클래스 학습을 통한 이상 탐지 제어},
+  author={전장군 and 김남기},
+  journal={제어로봇시스템학회 논문지},
+  volume={31},
+  number={4},
+  pages={328--333},
   year={2025}
 }
 ```
