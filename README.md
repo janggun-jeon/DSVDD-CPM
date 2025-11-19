@@ -6,7 +6,7 @@ Inspection Systems (paper under review)
 
 [https://doi.org/10.5302/J.ICROS.2025.24.0280](https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00002128)
 
-Journal of Institute of Control, Robotics and Systems (2025) 31(4):328-333      
+Journal of Institute of Control, Robotics and Systems 2025, 31(4), 328-333      
 ISSN:1976-5622       
 eISSN:2233-4335
 
@@ -124,7 +124,7 @@ If you use our code, please cite the paper below:
   journal={제어로봇시스템학회 논문지},
   volume={31},
   number={4},
-  pages={328--333},
+  pages={328-333},
   year={2025}
 }
 ```
